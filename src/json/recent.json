@@ -12,5 +12,12 @@
     "description": "Aquí aprenderás a instalar Ubuntu Server en una máquina virtual en tu equipo",
     "image": "/assets/articles/ubuntuserver.jpg",
     "category": "Servidores"
+  },
+  {
+    "id": 3,
+    "title": "Ruta para aprender desarrollo web en 2023",
+    "description": "En este artículo te cuento cuales son las tecnologías más demandadas en el mundo del desarrollo web.",
+    "image": "/assets/articles/webdev2023.jpg",
+    "category": "Programación"
   }
 ]

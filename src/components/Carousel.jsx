@@ -5,6 +5,8 @@ import 'swiper/css'
 import { CarouselSlide } from './CarouselSlide'
 
 export const Carousel = () => {
+
+  SwiperCore.use([Autoplay])
   
   return (
     <section className='w-100'>

@@ -13,10 +13,10 @@ export const BlogLayout = ({children, title, description}) => {
   return (
     <>
       <HeadLayout title={title} description={description} /> {/* html head */}
-      <section className={`h-screen w-full pl-40 pr-80 py-8 dark:bg-zinc-900 ${poppins.className}`}>
+      <section className={`min-h-screen w-full pl-4 lg:pl-40 pr-4 lg:pr-80 py-8 dark:bg-zinc-900 ${poppins.className}`}>
         <SidebarNav />
         <SidebarRight />
-        <div className='children-container dark:text-white text-zinc-900 px-8'>  
+        <div className='children-container lg:pr-14 dark:bg-zinc-900 dark:text-white text-zinc-900 px-8'>  
           {children}
         </div>
       </section>

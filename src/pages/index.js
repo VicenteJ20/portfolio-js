@@ -17,8 +17,10 @@ export default function Home () {
           <BiLibrary className='cursor-pointer hover:text-teal-600 transition-all duration-500' />
         </div>
       </header>
-      <h2 className='text-2xl font-semibold my-6 dark:text-stone-100 border-t-2 pt-6 border-zinc-700'>Artículos destacados</h2>
-      <Carousel />
+      <div className='hidden md:block'>
+        <h2 className='text-2xl font-semibold my-6 dark:text-stone-100 border-t-2 pt-6 border-zinc-700'>Artículos destacados</h2>
+        <Carousel />
+      </div>
       <ArticleSection />
     </BlogLayout>
   )

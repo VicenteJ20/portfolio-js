@@ -1,9 +1,10 @@
+import { ArticleSection } from '@/components/ArticlesSection'
 import { Carousel } from '@/components/Carousel'
 import { BlogLayout } from '@/layout/BlogLayout'
 import { BiLibrary, BiSearch } from 'react-icons/bi'
 import { IoMdNotificationsOutline } from 'react-icons/io'
 
-export default function Home() {
+export default function Home () {
   return (
     <BlogLayout title='Home - Vicente Jorquera'>
       <header className='flex items-center justify-between gap-4'>
@@ -18,6 +19,7 @@ export default function Home() {
       </header>
       <h2 className='text-2xl font-semibold my-6 dark:text-stone-100 border-t-2 pt-6 border-zinc-700'>Artículos destacados</h2>
       <Carousel />
+      <ArticleSection />
     </BlogLayout>
   )
 }

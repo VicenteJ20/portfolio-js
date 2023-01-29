@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "title": "Como crear tu primer proyecto con NextJS y Tailwind css",
+    "description": "En este artículo aprenderás a crear tu primer proyecto con NextJS y Tailwind css. (Con JavaScript y TypeScript)",
+    "image": "/assets/articles/nextjs.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Como instalar Ubuntu Server en Virtual Box",
+    "description": "Aquí aprenderás a instalar Ubuntu Server en una máquina virtual en tu equipo",
+    "image": "/assets/articles/ubuntuserver.jpg"
+  }
+]
